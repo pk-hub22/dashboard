@@ -1,141 +1,110 @@
 <!DOCTYPE html>
 <html lang="th">
 <head>
-<meta charset="UTF-8" />
-<title>Mockup J Dashboard</title>
-<style>
-  body {
-    font-family: Arial, sans-serif;
-    padding: 20px;
-    background: #f0f2f5;
-  }
-  h1 {
-    text-align: center;
-    margin-bottom: 30px;
-  }
-  .grid-container {
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    gap: 15px;
-    max-width: 1000px;
-    margin: 0 auto;
-  }
-  .btn-link {
-    background: white;
-    border-radius: 8px;
-    box-shadow: 0 2px 5px rgb(0 0 0 / 0.1);
-    padding: 15px;
-    text-align: center;
-    cursor: pointer;
-    transition: box-shadow 0.3s ease;
-    text-decoration: none;
-    color: #333;
-  }
-  .btn-link:hover {
-    box-shadow: 0 5px 15px rgb(0 0 0 / 0.2);
-  }
-  .btn-link img {
-    width: 60px;
-    height: 60px;
-    object-fit: contain;
-    margin-bottom: 10px;
-  }
-  .btn-link span {
-    display: block;
-    font-weight: bold;
-    font-size: 14px;
-  }
-</style>
+  <meta charset="UTF-8" />
+  <title>Dashboard Menu</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 30px;
+      background: #121212;
+      color: #eee;
+      font-family: "Segoe UI", sans-serif;
+    }
+    h1 {
+      text-align: center;
+      margin-bottom: 40px;
+      font-size: 2rem;
+    }
+    .grid-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+      gap: 24px;
+      max-width: 1000px;
+      margin: 0 auto;
+    }
+    .btn-link {
+      background: #1e1e1e;
+      border-radius: 10px;
+      padding: 20px 10px;
+      text-decoration: none;
+      color: #fff;
+      text-align: center;
+      transition: all 0.2s ease;
+      box-shadow: 0 0 5px rgba(0,0,0,0.2);
+    }
+    .btn-link:hover {
+      background: #2a2a2a;
+      transform: translateY(-2px);
+    }
+    .btn-link img {
+      width: 60px;
+      height: 60px;
+      object-fit: contain;
+      margin-bottom: 10px;
+      opacity: 0.9;
+    }
+    .btn-link span {
+      display: block;
+      font-size: 14px;
+      font-weight: 500;
+    }
+  </style>
 </head>
 <body>
-  <h1>Dashboard Links</h1>
+  <h1>Jam Dashboard</h1>
   <div class="grid-container">
-    <!-- ปุ่มตัวอย่าง 20 ปุ่ม -->
-    <!-- เปลี่ยน href และ img src ตามที่ต้องการได้ -->
+
+    <a href="https://lookerstudio.google.com/reporting/448b7b2d-e14e-43c7-9888-283caf80ff7b" target="_blank" class="btn-link">
+      <img src="https://cdn-icons-png.flaticon.com/512/590/590836.png" alt="Coffee Drip" />
+      <span>Drip Coffee</span>
+    </a>
+
     <a href="https://lookerstudio.google.com/reporting/5211caf1-5913-4379-859c-0d2c5014187a" target="_blank" class="btn-link">
-      <img src="https://cdn-icons-png.flaticon.com/512/1006/1006550.png" alt="Dashboard 1" />
-      <span>Dashboard AllTea</span>
+      <img src="https://cdn-icons-png.flaticon.com/512/5304/5304725.png" alt="Tea" />
+      <span>AllTea</span>
     </a>
-    <a href="https://lookerstudio.google.com/reporting/dashboard-2" target="_blank" class="btn-link">
-      <img src="https://cdn-icons-png.flaticon.com/512/1006/1006550.png" alt="Dashboard 2" />
-      <span>Dashboard 2</span>
+
+    <a href="https://lookerstudio.google.com/reporting/3f347c4f-6106-4cc9-be2a-84dab11d0772/page/p_fmw4hgzvrd" target="_blank" class="btn-link">
+      <img src="https://cdn-icons-png.flaticon.com/512/7522/7522555.png" alt="French Bread" />
+      <span>FrenchBread</span>
     </a>
-    <a href="https://lookerstudio.google.com/reporting/dashboard-3" target="_blank" class="btn-link">
-      <img src="https://cdn-icons-png.flaticon.com/512/1006/1006550.png" alt="Dashboard 3" />
-      <span>Dashboard 3</span>
+
+    <a href="https://lookerstudio.google.com/reporting/485f9072-6899-4698-a9e1-7abfd53e307b/page/p_fmw4hgzvrd" target="_blank" class="btn-link">
+      <img src="https://cdn-icons-png.flaticon.com/512/8204/8204862.png" alt="ยำ" />
+      <span>AllZapp</span>
     </a>
-    <a href="https://lookerstudio.google.com/reporting/dashboard-4" target="_blank" class="btn-link">
-      <img src="https://cdn-icons-png.flaticon.com/512/1006/1006550.png" alt="Dashboard 4" />
-      <span>Dashboard 4</span>
+
+    <a href="https://lookerstudio.google.com/reporting/f725f9ba-595c-4049-bc8d-46b605bbd286/page/p_02ibc9b58c" target="_blank" class="btn-link">
+      <img src="https://cdn-icons-png.flaticon.com/512/751/751061.png" alt="Bun" />
+      <span>GoPan</span>
     </a>
-    <a href="https://lookerstudio.google.com/reporting/dashboard-5" target="_blank" class="btn-link">
-      <img src="https://cdn-icons-png.flaticon.com/512/1006/1006550.png" alt="Dashboard 5" />
-      <span>Dashboard 5</span>
+
+    <a href="https://lookerstudio.google.com/reporting/ebef5dec-9199-4461-91e5-dc4c034895f7/page/p_02ibc9b58c" target="_blank" class="btn-link">
+      <img src="https://cdn-icons-png.flaticon.com/512/3595/3595455.png" alt="Pizza" />
+      <span>GoPizza</span>
     </a>
-    
-    <!-- 15 ปุ่มถัดไป -->
-    <a href="https://lookerstudio.google.com/reporting/dashboard-6" target="_blank" class="btn-link">
-      <img src="https://cdn-icons-png.flaticon.com/512/1006/1006550.png" alt="Dashboard 6" />
-      <span>Dashboard 6</span>
+
+    <a href="https://lookerstudio.google.com/reporting/e4b5c380-9403-4e1c-852e-9c50debb1883/page/p_fmw4hgzvrd" target="_blank" class="btn-link">
+      <img src="https://cdn-icons-png.flaticon.com/512/3183/3183480.png" alt="Sushi Set" />
+      <span>Uoriki</span>
     </a>
-    <a href="https://lookerstudio.google.com/reporting/dashboard-7" target="_blank" class="btn-link">
-      <img src="https://cdn-icons-png.flaticon.com/512/1006/1006550.png" alt="Dashboard 7" />
-      <span>Dashboard 7</span>
+
+    <a href="https://lookerstudio.google.com/reporting/569ef9c7-d60c-4d22-855e-6b0299a4c942/page/p_fmw4hgzvrd" target="_blank" class="btn-link">
+      <img src="https://cdn-icons-png.flaticon.com/512/4809/4809640.png" alt="Sushi" />
+      <span>SukiCup</span>
     </a>
-    <a href="https://lookerstudio.google.com/reporting/dashboard-8" target="_blank" class="btn-link">
-      <img src="https://cdn-icons-png.flaticon.com/512/1006/1006550.png" alt="Dashboard 8" />
-      <span>Dashboard 8</span>
-    </a>
-    <a href="https://lookerstudio.google.com/reporting/dashboard-9" target="_blank" class="btn-link">
-      <img src="https://cdn-icons-png.flaticon.com/512/1006/1006550.png" alt="Dashboard 9" />
+
+    <a href="https://lookerstudio.google.com/reporting/report9" target="_blank" class="btn-link">
+      <img src="https://via.placeholder.com/60?text=📊" alt="Dashboard 9" />
       <span>Dashboard 9</span>
     </a>
-    <a href="https://lookerstudio.google.com/reporting/dashboard-10" target="_blank" class="btn-link">
-      <img src="https://cdn-icons-png.flaticon.com/512/1006/1006550.png" alt="Dashboard 10" />
+
+    <a href="https://lookerstudio.google.com/reporting/report10" target="_blank" class="btn-link">
+      <img src="https://via.placeholder.com/60?text=📈" alt="Dashboard 10" />
       <span>Dashboard 10</span>
     </a>
 
-    <a href="https://lookerstudio.google.com/reporting/dashboard-11" target="_blank" class="btn-link">
-      <img src="https://cdn-icons-png.flaticon.com/512/1006/1006550.png" alt="Dashboard 11" />
-      <span>Dashboard 11</span>
-    </a>
-    <a href="https://lookerstudio.google.com/reporting/dashboard-12" target="_blank" class="btn-link">
-      <img src="https://cdn-icons-png.flaticon.com/512/1006/1006550.png" alt="Dashboard 12" />
-      <span>Dashboard 12</span>
-    </a>
-    <a href="https://lookerstudio.google.com/reporting/dashboard-13" target="_blank" class="btn-link">
-      <img src="https://cdn-icons-png.flaticon.com/512/1006/1006550.png" alt="Dashboard 13" />
-      <span>Dashboard 13</span>
-    </a>
-    <a href="https://lookerstudio.google.com/reporting/dashboard-14" target="_blank" class="btn-link">
-      <img src="https://cdn-icons-png.flaticon.com/512/1006/1006550.png" alt="Dashboard 14" />
-      <span>Dashboard 14</span>
-    </a>
-    <a href="https://lookerstudio.google.com/reporting/dashboard-15" target="_blank" class="btn-link">
-      <img src="https://cdn-icons-png.flaticon.com/512/1006/1006550.png" alt="Dashboard 15" />
-      <span>Dashboard 15</span>
-    </a>
-
-    <a href="https://lookerstudio.google.com/reporting/dashboard-16" target="_blank" class="btn-link">
-      <img src="https://cdn-icons-png.flaticon.com/512/1006/1006550.png" alt="Dashboard 16" />
-      <span>Dashboard 16</span>
-    </a>
-    <a href="https://lookerstudio.google.com/reporting/dashboard-17" target="_blank" class="btn-link">
-      <img src="https://cdn-icons-png.flaticon.com/512/1006/1006550.png" alt="Dashboard 17" />
-      <span>Dashboard 17</span>
-    </a>
-    <a href="https://lookerstudio.google.com/reporting/dashboard-18" target="_blank" class="btn-link">
-      <img src="https://cdn-icons-png.flaticon.com/512/1006/1006550.png" alt="Dashboard 18" />
-      <span>Dashboard 18</span>
-    </a>
-    <a href="https://lookerstudio.google.com/reporting/dashboard-19" target="_blank" class="btn-link">
-      <img src="https://cdn-icons-png.flaticon.com/512/1006/1006550.png" alt="Dashboard 19" />
-      <span>Dashboard 19</span>
-    </a>
-    <a href="https://lookerstudio.google.com/reporting/dashboard-20" target="_blank" class="btn-link">
-      <img src="https://cdn-icons-png.flaticon.com/512/1006/1006550.png" alt="Dashboard 20" />
-      <span>Dashboard 20</span>
-    </a>
   </div>
 </body>
 </html>
